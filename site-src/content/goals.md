@@ -25,7 +25,7 @@ The strategy has two parts, used together:
 - using models from the major labs more effectively, through a range of techniques, rather than assuming their Amharic is as good as their English; and
 - fine-tuning smaller models for specific tasks, or even for specific speakers, where a small specialized model can beat a large general one.
 
-The [speech dataset audit](../sources/speech/) shows the starting conditions: under two validated hours of public scripted Amharic speech, and no Amharic in the one archive with synchronized video and transcript.
+Two things keep this goal honest. First, even English translation and transcription are still a work in progress; there is no finished model to reach for in any language, only off-the-shelf models that can be used better and improved. Second, improving low-resource models needs training data that mostly does not exist yet. The project collects it the slow way: a native Amharic speaker who is also a data scientist hand-reviews machine translations and corrects them, and each corrected pair becomes training and evaluation data. The [speech dataset audit](../sources/speech/) shows why that is the only route: under two validated hours of public scripted Amharic speech, and no Amharic in the one archive with synchronized video and transcript.
 
 ## Reports from everyday Ethiopians
 
@@ -43,5 +43,7 @@ Evidence: the operator's statement of goals, 2026-08-22 · build report §0 and 
 
 - This page states intentions, not results. The news site described here does not yet exist; no translation or transcription quality has been measured (see problem 01); the reporting-by-email tool has not been built.
 - The commercial premise (information that becomes valuable when the next crisis comes) is the project's own stated reasoning, given here so a reader understands why a record of failures was worth publishing.
-- "Other languages that are not low-resource" is the operator's phrasing for the additional monitored languages; the set has not been fixed.
+- "Other languages that are not low-resource" is the operator's phrasing for the additional monitored languages. The set is open-ended by design and is not a closed list.
+- Translation and transcription are a work in progress in every language, English included. The project's position is that it can only improve the off-the-shelf models available and collect more training data for low-resource languages; it does not claim a finished model for any language.
+- Training data is collected by hand review: the native Amharic speaker who is also a data scientist reviews and corrects machine translations. This is slow and is the current method, not a planned one.
 - The two-person human team and the role-only rule apply here as everywhere on the site.
