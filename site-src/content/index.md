@@ -73,7 +73,7 @@ Evidence: commit `3fdb48ab` · the convergence artifact, deleted with the corpus
 
 Every figure on these pages carries a repository path, ticket id or commit in an evidence strip like the two above, so it can be re-verified against the archive. Failures are content here: blocked sources, rejected runs and measurements that came back zero are listed with the same care as successes. People appear by role only. Ethiopic text renders from your device's system fonts and is marked reviewed or awaiting review. Nothing on this site is triumphant and nothing apologizes; it is a lab notebook, published.
 
-The build was one attempt inside a longer project: a news site for Ethiopia and its diaspora in English and Amharic, and, as its prerequisite, better translation and transcription for low-resource languages. [What the project is for](goals/) sets out those goals.
+The build was one attempt inside a longer project: a news site for Ethiopia and its diaspora in English and Amharic, and, as its prerequisite, better translation and transcription for low-resource languages. The two are one project because every translation the bilingual editors correct becomes training data. [What the project is for](goals/) sets out those goals.
 
 Two further pages sit outside the six chapters: the [evidence map](evidence/), which lists every repository, document and ticket store the record draws on, and [agent access](agents/), the site's notes for the AI assistants that read it.
 
