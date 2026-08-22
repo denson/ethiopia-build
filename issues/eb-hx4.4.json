@@ -1,0 +1,15 @@
+{
+  "assignee": "",
+  "blocked_by": [],
+  "blocks": [],
+  "created": "2026-08-22T15:15:14Z",
+  "description": "Drafted 2026-08-22 from the build report; live at https://ethiopia-build.stoagen.com/ingestion/ (source site-src/content/ingestion.md or ingestion/index.md). Open for: re-verification of every figure against the unpacked package (C:\\claude_projects\\ethiopia-archive\\unpacked\\), PRINCIPAL edits, and the Amharic review status if it changes.",
+  "id": "eb-hx4.4",
+  "labels": [],
+  "parent": "eb-hx4",
+  "priority": 3,
+  "status": "open",
+  "title": "Page /ingestion/: How the data was ingested",
+  "type": "task",
+  "updated_at": "2026-08-22T15:15:14Z"
+}
