@@ -1,0 +1,15 @@
+{
+  "assignee": "",
+  "blocked_by": [],
+  "blocks": [],
+  "created": "2026-08-22T15:15:14Z",
+  "description": "Drafted 2026-08-22 from the build report; live at https://ethiopia-build.stoagen.com/graphs/ (source site-src/content/graphs.md or graphs/index.md). Open for: re-verification of every figure against the unpacked package (C:\\claude_projects\\ethiopia-archive\\unpacked\\), PRINCIPAL edits, and the Amharic review status if it changes.",
+  "id": "eb-hx4.5",
+  "labels": [],
+  "parent": "eb-hx4",
+  "priority": 3,
+  "status": "open",
+  "title": "Page /graphs/: Three generations of graphs",
+  "type": "task",
+  "updated_at": "2026-08-22T15:15:14Z"
+}
