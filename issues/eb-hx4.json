@@ -1,0 +1,14 @@
+{
+  "assignee": "",
+  "blocked_by": [],
+  "blocks": [],
+  "created": "2026-08-22T15:15:13Z",
+  "description": "Site: https://ethiopia-build.stoagen.com/ (repo denson/ethiopia-build, GitHub Pages, workflow build). Directing ticket: u--xal in denson/user-beadwork; report progress there. Spine: user-beadwork/briefs/REPORT_ethiopia-build-and-challenges_2026-08-21.md. Design export: C:\\claude_projects\\ethiopia-build-design\\ (laptop). Rules: people by role only; private material never enters (CLAUDE.md); every figure carries evidence; validator gates every build. State 2026-08-22: 28 pages drafted and deployed (commit d14bcf3 + follow-ups); CNAME ethiopia-build -\u003e denson.github.io awaits the PRINCIPAL at Cloudflare (agents never touch Cloudflare); HTTPS enforcement and the Search Console property follow DNS. Child tickets: one per page, for re-verification against the package and for edits.",
+  "id": "eb-hx4",
+  "labels": [],
+  "priority": 1,
+  "status": "open",
+  "title": "[START HERE] ethiopia-build: the public engineering record of the Ethiopia knowledge-base build",
+  "type": "epic",
+  "updated_at": "2026-08-22T15:15:13Z"
+}
