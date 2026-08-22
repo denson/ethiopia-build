@@ -1,0 +1,15 @@
+{
+  "assignee": "",
+  "blocked_by": [],
+  "blocks": [],
+  "created": "2026-08-22T15:15:16Z",
+  "description": "Drafted 2026-08-22 from the build report; live at https://ethiopia-build.stoagen.com/problems/10/ (source site-src/content/problems/10.md or problems/10/index.md). Open for: re-verification of every figure against the unpacked package (C:\\claude_projects\\ethiopia-archive\\unpacked\\), PRINCIPAL edits, and the Amharic review status if it changes.",
+  "id": "eb-hx4.18",
+  "labels": [],
+  "parent": "eb-hx4",
+  "priority": 3,
+  "status": "open",
+  "title": "Page /problems/10/: Problem 10 The one ASR attempt died",
+  "type": "task",
+  "updated_at": "2026-08-22T15:15:16Z"
+}
