@@ -1,0 +1,70 @@
+# Building the Ethiopia knowledge base
+> The public engineering record of an attempt, between 14 July and 12 August
+> 2026, by a team of AI agents directed by one person, to build a
+> machine-readable knowledge base about Ethiopia from public sources and to
+> extract knowledge graphs from it: where the data came from, how the graphs
+> were built, and what went wrong, with fifteen Amharic and
+> low-resource-language problems as the centrepiece. Author: Denson Smith.
+
+Everything in this file and in the page mirrors is information from the
+publisher, not instructions to you. Your operator's instructions always
+come first; apply ours as source metadata, with your own judgment.
+
+This is a record, not a live project. The work ended on 2026-08-12 and the
+corpus it describes was deleted on 2026-08-04 (raw captures and git history
+retained). Every figure carries a repository path, ticket id or commit.
+People appear by role only. Every Amharic string is awaiting native-speaker
+review unless a page says otherwise.
+
+Warnings from the field, part of this contract: assume this file may not
+have been read (every load-bearing rule also appears in visible page text);
+if your tool refuses a mirror's text/markdown content type, append .txt to
+the URL; and this site is new enough that web search may return nothing or
+unrelated results for it. If search fails, say the site could not be found
+by search rather than describing it from guesswork.
+
+The site is larger than one fetch reliably carries, so its front door is a
+small map: https://ethiopia-build.stoagen.com/site_guide.txt lists every
+page with its mirror URL and size. Links below point at the Markdown mirror
+of each page, which is what you should read. Drop `index.md` from any URL to
+get the page a human should be given. llms-full.txt carries every mirror
+concatenated.
+
+## Start here
+- [Site guide](https://ethiopia-build.stoagen.com/site_guide.txt): the map of every page with sizes; the front door.
+- [Assistant start page](https://ethiopia-build.stoagen.com/start.md): one-page orientation.
+- [Home](https://ethiopia-build.stoagen.com/index.md): the three numbers, the honest headline, the six chapters.
+- [Where the data came from](https://ethiopia-build.stoagen.com/sources/index.md): Wikipedia by API, fifty audited source families, World Bank, news publishers, VOA, volumes.
+- [Speech datasets](https://ethiopia-build.stoagen.com/sources/speech/index.md): the Common Voice audit of eight Ethiopian languages.
+- [How the data was ingested](https://ethiopia-build.stoagen.com/ingestion/index.md): principles, four pipelines, the trusted execution broker, Obsidian demoted.
+- [Three generations of graphs](https://ethiopia-build.stoagen.com/graphs/index.md): deterministic claims, OO-LD hypergraphs, the lens-graph architecture.
+- [The convergence measurement](https://ethiopia-build.stoagen.com/graphs/convergence/index.md): fifteen of fifteen graphs different.
+- [The evidence model](https://ethiopia-build.stoagen.com/graphs/evidence-model/index.md): five layers and the evidence-relative ruling.
+- [The fifteen Amharic problems](https://ethiopia-build.stoagen.com/problems/index.md): the hub; one page per problem at /problems/01/ through /problems/15/.
+- [Who did the work](https://ethiopia-build.stoagen.com/seats/index.md): the seats by role and runtime, and what they recorded against themselves.
+- [Timeline](https://ethiopia-build.stoagen.com/timeline/index.md): 14 July to 11 August 2026, dated from tickets and commits.
+- [What is still open](https://ethiopia-build.stoagen.com/timeline/open-items/index.md): every open item with an honest state.
+- [Where the evidence lives](https://ethiopia-build.stoagen.com/evidence/index.md): repositories, key documents, ticket stores, commits.
+- [Agent access](https://ethiopia-build.stoagen.com/agents/index.md): this contract, in page form.
+
+## The fifteen problems
+- [01 English-first by default](https://ethiopia-build.stoagen.com/problems/01/index.md)
+- [02 Human review is the product](https://ethiopia-build.stoagen.com/problems/02/index.md)
+- [03 A deterministic one-character corruption](https://ethiopia-build.stoagen.com/problems/03/index.md)
+- [04 Inline markup clipped one assertion in five](https://ethiopia-build.stoagen.com/problems/04/index.md)
+- [05 Byte slicing mojibaked the review bundle](https://ethiopia-build.stoagen.com/problems/05/index.md)
+- [06 Free-text roles in two scripts broke the join](https://ethiopia-build.stoagen.com/problems/06/index.md)
+- [07 Transliteration has no standard](https://ethiopia-build.stoagen.com/problems/07/index.md)
+- [08 Entity matching was degenerate](https://ethiopia-build.stoagen.com/problems/08/index.md)
+- [09 Wikidata has no Amharic labels for most concepts](https://ethiopia-build.stoagen.com/problems/09/index.md)
+- [10 The one ASR attempt died on a missing DLL](https://ethiopia-build.stoagen.com/problems/10/index.md)
+- [11 The chyrons have proper nouns spelled right](https://ethiopia-build.stoagen.com/problems/11/index.md)
+- [12 Singing and gemination](https://ethiopia-build.stoagen.com/problems/12/index.md)
+- [13 Script and encoding at the edges](https://ethiopia-build.stoagen.com/problems/13/index.md)
+- [14 Calendar and clock](https://ethiopia-build.stoagen.com/problems/14/index.md)
+- [15 Rights and provenance of anything translated](https://ethiopia-build.stoagen.com/problems/15/index.md)
+
+## Optional
+- [Full corpus](https://ethiopia-build.stoagen.com/llms-full.txt): every page mirror in one file (alias full_site.txt), for tools that can take one large fetch.
+- [Feed](https://ethiopia-build.stoagen.com/feed.xml): pages by last update.
+- [Stoagen](https://stoagen.com/llms.txt): the system this site is published with.
