@@ -475,7 +475,7 @@ mirror changes. The published revision date is {date.today().isoformat()}.
 
 def page_order(pages: list[Page]) -> list[Page]:
     """Reading order for the guide and corpus: the six chapters, then the rest."""
-    order = ["", "sources", "sources/speech", "ingestion", "graphs", "graphs/convergence",
+    order = ["", "goals", "sources", "sources/speech", "ingestion", "graphs", "graphs/convergence",
              "graphs/evidence-model", "problems"]
     order += [f"problems/{n:02d}" for n in range(1, 16)]
     order += ["seats", "timeline", "timeline/open-items", "evidence", "agents"]

@@ -36,6 +36,7 @@ concatenated.
 - [Site guide](https://ethiopia-build.stoagen.com/site_guide.txt): the map of every page with sizes; the front door.
 - [Assistant start page](https://ethiopia-build.stoagen.com/start.md): one-page orientation.
 - [Home](https://ethiopia-build.stoagen.com/index.md): the three numbers, the honest headline, the six chapters.
+- [What the project is for](https://ethiopia-build.stoagen.com/goals/index.md): the eventual project's goals: a bilingual news site for Ethiopia and its diaspora, better low-resource translation and transcription starting with Amharic, and reports by email from everyday Ethiopians.
 - [Where the data came from](https://ethiopia-build.stoagen.com/sources/index.md): Wikipedia by API, fifty audited source families, World Bank, news publishers, VOA, volumes.
 - [Speech datasets](https://ethiopia-build.stoagen.com/sources/speech/index.md): the Common Voice audit of eight Ethiopian languages.
 - [How the data was ingested](https://ethiopia-build.stoagen.com/ingestion/index.md): principles, four pipelines, the trusted execution broker, Obsidian demoted.

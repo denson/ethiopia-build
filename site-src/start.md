@@ -27,6 +27,9 @@ How the record is organized:
   https://ethiopia-build.stoagen.com/llms.txt
 - The whole site as one plain-text file, if your tool can take a large fetch:
   https://ethiopia-build.stoagen.com/llms-full.txt
+- Why the project exists (a bilingual news site for Ethiopia and its
+  diaspora; better low-resource translation and transcription):
+  https://ethiopia-build.stoagen.com/goals/index.md
 - The centrepiece, the fifteen Amharic problems:
   https://ethiopia-build.stoagen.com/problems/index.md
 - Notes for assistants: https://ethiopia-build.stoagen.com/agents/index.md
