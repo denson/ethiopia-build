@@ -36,5 +36,5 @@ One rule governs every page in this chapter: Ethiopic text renders from your dev
 
 - The fifteen problems are the build report's §4.1 to §4.15 in the report's order, one page each. The numbering is the site's; the tickets cited on each page are the programme's.
 - The categories on the cards (design, translation, extraction, encoding, joins, identity, linked data, speech, calendar, rights) are the publisher's grouping for navigation.
-- The Amharic native-speaker review bundle (problem 05) is with its reviewer, described by role only; at the time of the report its reading had not come back. All Amharic extraction is frozen behind it under the programme's standing rule R6.
+- The Amharic native-speaker review bundle (problem 05) is with its reviewer, described by role only, who is working on the validation as of 2026-08-22; no reading has been returned yet. All Amharic extraction is frozen behind it under the programme's standing rule R6.
 - The Amharic strings on these pages are rendered from the report. None has been certified by native-speaker review; treat them as specimens of the defect being described, not as reviewed translations.
