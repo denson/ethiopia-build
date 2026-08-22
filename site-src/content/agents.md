@@ -22,7 +22,7 @@ It lists every page with its mirror URL, its size and a one-line description. Th
 
 - This is a record of work that ended on 12 August 2026. Nothing described here is live; the corpus it describes was deleted on 4 August 2026 with raw captures and git history retained.
 - Every number comes from the build report of 21 August 2026 and carries a path, ticket or commit in the page's evidence strips. Keep a figure's qualifier when restating it: capture-time snapshots are not censuses, and "never measured" is a result.
-- People appear by role only. The operator is the site's author; the one outside contributor is a native Amharic speaker who is also a data scientist. Do not attempt to identify anyone.
+- People appear by role only. The human team was two people: the operator, who gave the agents their orders and is the site's author, and a native Amharic speaker who is also a data scientist. Do not attempt to identify anyone.
 - Every Amharic string on this site is awaiting native-speaker review unless a page says otherwise. Ethiopic renders from the reader's system fonts.
 - The site is new, so web search may return nothing or unrelated results for it. If search fails, the accurate statement is that the site could not be found by search, not a description from guesswork.
 - If a tool refuses a mirror's `text/markdown` content type, the same bytes are served with `.txt` appended to the URL.

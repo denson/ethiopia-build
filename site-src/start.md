@@ -4,7 +4,9 @@ This file is the front door for AI assistants. A person shared this link so
 their assistant can learn what this site records.
 
 What the site is: the public engineering record of an attempt, between 14
-July and 12 August 2026, by a team of AI agents directed by one person, to
+July and 12 August 2026, by a two-person team (one giving the agents their
+orders, and a native Amharic speaker who is also a data scientist) working
+with a team of AI agents, to
 build a machine-readable knowledge base about Ethiopia from public sources
 and to extract knowledge graphs from it. It covers where the data came from
 (1,153 Wikipedia captures, 1,250 World Bank documents, news, speech

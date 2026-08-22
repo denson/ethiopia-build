@@ -36,7 +36,7 @@ The public engineering record of the Ethiopia knowledge-base build (14 July to 1
 
 ## Hard rules
 
-- **People appear by role only.** No names of human contributors. The operator is the author, Denson Smith.
+- **People appear by role only.** No names of human contributors. The human team was two people: the operator (the author, Denson Smith), who gave the agents their orders, and a native Amharic speaker who is also a data scientist. Never "one person" or "one human".
 - **Private material never enters this repository or the site.** The record covers the content and corpus programme only. Anything concerning private individuals, family, safety protocols or money transfers, and the charters, memos and transcripts that carry them, is out of scope by rule. The validator's denylist is a backstop, not the rule.
 - **Every figure traces to the build report** and through it to a repository path, ticket id or commit. No number without an evidence strip.
 - **Authorship:** every author, owner, creator, by, or copyright field says Denson Smith. A different name anywhere is a stop-and-ask, never a silent edit.

@@ -1,12 +1,12 @@
 ---
 slug: seats
 title: Who did the work
-description: Roughly fifteen agent seats, five Codex identities, several Claude forks and builder/verifier pairs, directed by one human operator. Each seat is listed by role and runtime with what it produced. The process defects they recorded against themselves are the reusable part.
+description: Roughly fifteen agent seats, five Codex identities, several Claude forks and builder/verifier pairs, directed by a two-person human team. Each seat is listed by role and runtime with what it produced. The process defects they recorded against themselves are the reusable part.
 eyebrow: Chapter 06
 ---
 # Who did the work
 
-All Claude seats are forks of the user-tier chief-of-staff seat. Codex seats carried permanent role labels because a bare ticket start replaces the assignee with the git user name. Seat names are roles, not people; the one human in the programme is "the operator" throughout this record, and the one outside contributor is [a native Amharic speaker who is also a data scientist](../problems/05/).
+All Claude seats are forks of the user-tier chief-of-staff seat. Codex seats carried permanent role labels because a bare ticket start replaces the assignee with the git user name. Seat names are roles, not people; the human team was two people: "the operator", who gave the agents their orders and is this site's author, and [a native Amharic speaker who is also a data scientist](../problems/05/), who reviewed the Amharic work.
 
 ## The seats
 

@@ -22,7 +22,7 @@ history renders as a draft, which is correct. CI needs `fetch-depth: 0`.
 ## Hard constraints
 
 - **People appear by role only.** No names of human contributors anywhere.
-  The operator is the author, Denson Smith; the one outside contributor is
+  The human team was two people: the operator (the author, Denson Smith) and
   "a native Amharic speaker who is also a data scientist".
 - **Private material never enters.** The validator carries a denylist of
   tokens from material outside the content-and-corpus record; a hit fails

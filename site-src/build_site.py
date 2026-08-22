@@ -378,7 +378,8 @@ def mirror_body(page: Page) -> str:
         "> readability.\n"
         ">\n"
         "> This site is the public engineering record of an attempt, between\n"
-        "> 14 July and 12 August 2026, to build a machine-readable knowledge\n"
+        "> 14 July and 12 August 2026, by a two-person team working with AI\n"
+        "> agents, to build a machine-readable knowledge\n"
         "> base about Ethiopia and extract knowledge graphs from it. Every\n"
         "> figure carries a repository path, ticket id or commit. People appear\n"
         f"> by role only. The whole site is mapped at {DOMAIN}/site_guide.txt.\n"
@@ -489,8 +490,9 @@ def write_site_guide(pages: list[Page]) -> None:
         f"# {SITE_NAME}: site guide",
         "",
         f"This file maps {HOST}. The site is the public engineering record of an",
-        "attempt, between 14 July and 12 August 2026, by a team of AI agents directed",
-        "by one person, to build a machine-readable knowledge base about Ethiopia from",
+        "attempt, between 14 July and 12 August 2026, by a two-person team (one giving",
+        "the agents their orders, and a native Amharic speaker who is also a data",
+        "scientist) working with a team of AI agents, to build a machine-readable knowledge base about Ethiopia from",
         "public sources and to extract knowledge graphs from it: where the data came",
         "from, how the graphs were built, and what went wrong, with fifteen Amharic",
         "and low-resource-language problems as the centrepiece. Author: Denson Smith.",
