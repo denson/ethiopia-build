@@ -12,8 +12,9 @@ from it, toward a bilingual
 news site for Ethiopia and its diaspora and better Amharic translation. It
 covers where the data came from (1,153 Wikipedia captures, 1,250 World Bank
 documents, news, speech datasets), how it was ingested, three generations
-of knowledge-graph design, the measurement that showed zero convergence
-across model draws, fifteen concrete Amharic and low-resource-language
+of knowledge-graph design, the measurement in which fifteen extraction runs
+gave fifteen different graphs (expected, in the lens terminology the
+project then adopted), fifteen concrete Amharic and low-resource-language
 problems, the agent seats that did the work, a dated timeline, and what is
 still open. On 11 August 2026 the operator ruled the first corpus "nowhere
 near worked" and made the architecture generic so the next pass could

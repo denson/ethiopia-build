@@ -9,7 +9,7 @@ eyebrow: Chapter 05 · open items
 | Item | State |
 |---|---|
 | A fresh Ethiopia programme authored from the generic architecture | **× DOES NOT EXIST** the old phase plan is superseded and must not be resumed from the old framing |
-| Convergence under the new definition | **? NEVER MEASURED** the zero result stands unrefuted |
+| Convergence under the new definition | **? NEVER MEASURED** the first-pass zero was measured against an expectation the lens architecture dropped (runs are lenses and are expected to differ); agreement across runs of one closed-vocabulary lens, against a hand-built exemplar, has not been measured |
 | Amharic native-speaker review | **∅ IN PROGRESS** bundle delivered; the reviewer is working on validation as of 22 August 2026; all Amharic extraction frozen behind it; the bundle itself carries the mojibake and short-passage defects |
 | Amharic retrieval and extraction quality | **? UNMEASURED** a hand-checked set is the prerequisite for any parity claim |
 | Amharic ASR | **× ZERO OUTPUT** the only attempt died on a CUDA library |

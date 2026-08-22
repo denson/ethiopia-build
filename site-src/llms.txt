@@ -45,7 +45,7 @@ concatenated.
 - [Speech datasets](https://ethiopia-build.stoagen.com/sources/speech/index.md): the Common Voice audit of eight Ethiopian languages.
 - [How the data was ingested](https://ethiopia-build.stoagen.com/ingestion/index.md): principles, four pipelines, the trusted execution broker, Obsidian demoted.
 - [Three generations of graphs](https://ethiopia-build.stoagen.com/graphs/index.md): deterministic claims, OO-LD hypergraphs, the lens-graph architecture.
-- [The convergence measurement](https://ethiopia-build.stoagen.com/graphs/convergence/index.md): fifteen of fifteen graphs different.
+- [The convergence measurement](https://ethiopia-build.stoagen.com/graphs/convergence/index.md): fifteen extraction runs, fifteen different graphs; what that meant under generation two, and why in the lens terminology it is expected.
 - [The evidence model](https://ethiopia-build.stoagen.com/graphs/evidence-model/index.md): five layers and the evidence-relative ruling.
 - [The fifteen Amharic problems](https://ethiopia-build.stoagen.com/problems/index.md): the hub; one page per problem at /problems/01/ through /problems/15/.
 - [Who did the work](https://ethiopia-build.stoagen.com/seats/index.md): the seats by role and runtime, and what they recorded against themselves.

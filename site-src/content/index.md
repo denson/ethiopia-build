@@ -17,10 +17,10 @@ Wikipedia captures, hashed and revision-stamped
 
 World Bank documents acquired with full provenance
 </div>
-<div class="warn" markdown="1">
+<div markdown="1">
 <p class="figure">15<small> of </small>15</p>
 
-extraction runs produced a different graph. Three documents, five runs each; no two runs on the same document agreed
+extraction runs produced a different graph. Three documents, five runs each. In the project's terms each run is a lens, and lenses are expected to differ; identical ones would mean something was broken
 </div>
 </div>
 

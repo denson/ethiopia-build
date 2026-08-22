@@ -21,7 +21,7 @@ eyebrow: Chapter 03
 
 One run: 55 documents, 766 assertions, 70 validator disputes left in place.
 
-<p class="replaced">Replaced: convergence was zero.</p>
+<p class="replaced">Replaced: it expected runs to converge, and an open-vocabulary extractor never will.</p>
 </div>
 <div class="dotted" markdown="1">
 <p class="eyebrow">Gen 3 · 11 August</p>
@@ -67,7 +67,7 @@ Phase gates that passed: lossless round-trip (compact OO-LD to RDF to JSON-LD to
 
 The one real extraction run, on 2 August 2026: 55 news documents, 243 chunks, 17,364 segments, 766 relations in nine assertion classes, 70 validator-disputed assertions left in place unchanged. Entity resolution at alignment: 3,459 participants resolved to 2,409 distinct entity IRIs, 362 appearing in more than one document, up from a baseline of zero.
 
-Then the [convergence measurement](convergence/) came back zero.
+Then the [convergence measurement](convergence/) showed that five runs of the extractor on one document gave five different graphs, which generation two had not expected and generation three treats as the normal behaviour of lenses.
 
 Evidence: `oo-ld-corpus/` · `oo-ld-corpus/AGENTS.md` · extraction run 2026-08-02 · retrieved 2026-08-21
 
