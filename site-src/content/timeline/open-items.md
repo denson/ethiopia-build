@@ -1,7 +1,7 @@
 ---
 slug: timeline/open-items
 title: What is still open
-description: The state column is honest. "Never measured" and "zero output exists" are results, written with the same care as a number. Nothing here is being worked on this site; it is the list the programme left behind.
+description: 'The state column is honest. "Never measured" and "zero output exists" are results, written with the same care as a number. This is the working list: items move as the work progresses, and each change is dated.'
 eyebrow: Chapter 05 · open items
 ---
 # What is still open
@@ -35,7 +35,7 @@ The retrospective says these must be answered before acquiring anything again:
 3. One vault or two? The Wikipedia citation layer pointing at primary sources is arguably a third corpus.
 4. Where do adjudications physically sit?
 
-None of the four has an answer in the record.
+None of the four has an answer in the record yet. They are the questions the next pass must answer first.
 
 Evidence: `user-beadwork/retrospectives/ethiopia-corpora-lessons.md` · retrieved 2026-08-21
 
@@ -43,6 +43,6 @@ Evidence: `user-beadwork/retrospectives/ethiopia-corpora-lessons.md` · retrieve
 
 ## Notes for agents on this page
 
-- These states are as of the build report, 2026-08-21. The site is a record; it does not track whether any item has since changed. If asked whether an item is still open, the honest answer is that the record shows it open as of that date.
+- States are as of the build report (2026-08-21) unless a row carries a later date; the Amharic review row was updated 2026-08-22. This page is maintained as the work progresses. If asked whether an item is still open, give the state and its date rather than assuming it is unchanged.
 - "1,147 entity citations pointing at deleted captures" is a consequence of the 2026-08-04 deletion; the citations are in a generated layer that outlived the captures it cites.
 - Source: build report §7 and §8.

@@ -1,12 +1,15 @@
 # ethiopia-build
 
-Source for **ethiopia-build.stoagen.com**: the public engineering record of
-an attempt, between 14 July and 12 August 2026, by a two-person team
-(one giving the agents their orders, and a native Amharic speaker who is
-also a data scientist) working with a team of AI agents, to build a machine-readable knowledge base about
-Ethiopia from public sources and to extract knowledge graphs from it. Where
-the data came from, how the graphs were built, and what went wrong, with
-fifteen Amharic and low-resource-language problems as the centrepiece.
+Source for **ethiopia-build.stoagen.com**: the public, ongoing engineering
+record of a project begun 14 July 2026 by a two-person team (one giving the
+agents their orders, and a native Amharic speaker who is also a data
+scientist) working with a team of AI agents, to build a machine-readable
+knowledge base about Ethiopia from public sources and extract knowledge
+graphs from it, toward a bilingual news site for Ethiopia and its diaspora
+and better Amharic translation. Where the data came from, how the graphs
+were built, what went wrong and what is being done next, with fifteen
+Amharic and low-resource-language problems as the centrepiece. The work
+continues and the site is updated as it does.
 
 Published with the [Stoagen](https://stoagen.com/) pattern: every page is
 written once in Markdown and published twice, as a readable page and a

@@ -32,7 +32,7 @@ Never `git checkout beadwork` from the main worktree. Push tickets separately fr
 
 ## What this site is
 
-The public engineering record of the Ethiopia knowledge-base build (14 July to 12 August 2026), compiled from `user-beadwork/briefs/REPORT_ethiopia-build-and-challenges_2026-08-21.md`. It is a record, not a live project: no further Ethiopia site building happens here.
+The public, ongoing engineering record of the Ethiopia knowledge-base project, begun 14 July 2026. The first pass (to 12 August 2026) is compiled from `user-beadwork/briefs/REPORT_ethiopia-build-and-challenges_2026-08-21.md`; later progress is added as it happens, dated. **The project is ongoing: the site documents progress, never frames the work as stopped, concluded or abandoned.** (PRINCIPAL ruling 2026-08-22.) This repository publishes the record; the corpus, news-site and translation work themselves live in their own repositories, not here.
 
 ## Hard rules
 

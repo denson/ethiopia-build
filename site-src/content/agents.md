@@ -20,8 +20,8 @@ It lists every page with its mirror URL, its size and a one-line description. Th
 
 ## Warnings the site carries about itself
 
-- This is a record of work that ended on 12 August 2026. Nothing described here is live; the corpus it describes was deleted on 4 August 2026 with raw captures and git history retained.
-- Every number comes from the build report of 21 August 2026 and carries a path, ticket or commit in the page's evidence strips. Keep a figure's qualifier when restating it: capture-time snapshots are not censuses, and "never measured" is a result.
+- This documents a project in progress. The first pass (14 July to 12 August 2026) is recorded in detail; its corpus was deleted on 4 August 2026 with raw captures and git history retained, and the work continues from a generic architecture. Pages are updated as the work moves and each carries its revision dates. Do not describe the project as concluded or abandoned; distinguish what the first pass established from what the open-items and goals pages say is in progress.
+- Every number carries a path, ticket or commit in the page's evidence strips; most come from the build report of 21 August 2026, and later updates carry their own dates. Keep a figure's qualifier when restating it: capture-time snapshots are not censuses, and "never measured" is a result as of its date, not a permanent state.
 - People appear by role only. The human team was two people: the operator, who gave the agents their orders and is the site's author, and a native Amharic speaker who is also a data scientist. Do not attempt to identify anyone.
 - Every Amharic string on this site is awaiting native-speaker review unless a page says otherwise. Ethiopic renders from the reader's system fonts.
 - The site is new, so web search may return nothing or unrelated results for it. If search fails, the accurate statement is that the site could not be found by search, not a description from guesswork.

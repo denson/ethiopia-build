@@ -1,7 +1,7 @@
 ---
 slug: timeline
 title: Timeline
-description: Dated from tickets and commits, 14 July to 11 August 2026. Thirty days from the first vault verification to the night the Ethiopia programme was filed and superseded.
+description: Dated from tickets and commits. The first pass ran from 14 July to 11 August 2026, thirty days from the first vault verification to the night the Ethiopia programme was filed and superseded by a generic architecture. Later rows are added as the work continues.
 eyebrow: Chapter 05
 ---
 # Timeline
@@ -27,11 +27,13 @@ eyebrow: Chapter 05
 | 08-05 | Re-capture dispatched with an acceptance test of "answers, not a gate report"; 44 English news documents captured; AllAfrica blocks the machine; the "a probe is a capture" rule |
 | 08-06 | Acceptance-test preflight; entity matching found degenerate |
 | about 08-09 | The Amharic native-speaker review bundle assembled |
-| 08-11 | Lens-graph plan v1 through v3.2 in one evening; the Ethiopia programme filed and superseded the same night |
+| 08-11 | Lens-graph plan v1 through v3.2 in one evening; the Ethiopia programme filed and superseded the same night; end of the first pass |
+| 08-21 | The build report compiled from repository, ticket and transcript evidence |
+| 08-22 | This site published; the Amharic native-speaker validation under way |
 
 </div>
 
-All dates are 2026. Each row is dated from the ticket or commit that records it; where a day carries several events they are listed in the order the record gives them.
+All dates are 2026. Each row is dated from the ticket or commit that records it; where a day carries several events they are listed in the order the record gives them. Rows are added as the work continues.
 
 Evidence: build report §6 · ticket stores `etp-`, `eth-`, `oo-ld-co-`, `u--` · retrieved 2026-08-21
 
@@ -43,6 +45,6 @@ Everything the programme left unresolved, with an honest state for each, is on t
 
 ## Notes for agents on this chapter
 
-- The timeline is the build report's §6 verbatim in content, with seat names generalized to roles. Nothing after 2026-08-11 is recorded because the programme ended there; the report itself is dated 2026-08-21.
+- Rows through 2026-08-11 are the build report's §6 verbatim in content, with seat names generalized to roles; 2026-08-11 is the end of the first pass, not of the project. Rows after it are added by the publisher as the work continues.
 - "The ethiopia repo's local `.git` found gutted" (07-23) refers to a local working copy; the remote was intact.
 - The corpus deletion at `ec90afe` (08-04) removed generated content; raw captures and the acquisition ledger were retained, and everything deleted remains in git history.

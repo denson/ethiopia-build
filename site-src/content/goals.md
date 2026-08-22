@@ -39,7 +39,7 @@ The project also intends to build tools that let everyday Ethiopians send update
 
 ## How the build on this site fits
 
-The knowledge base was the attempt to give the news site a structured memory: captures with provenance, graphs extracted from them, and a way to join a news story to the World Bank documents and Wikipedia articles behind it. That attempt is the one this site records, failures included. The goals above did not change when the corpus was ruled "nowhere near worked"; the architecture was made generic so the same goals could be pursued from a cleaner start.
+The knowledge base is the news site's structured memory: captures with provenance, graphs extracted from them, and a way to join a news story to the World Bank documents and Wikipedia articles behind it. The first pass at building it is what this site documents in most detail, failures included. The goals above did not change when the first corpus was ruled "nowhere near worked"; the architecture was made generic so the same goals are pursued from a cleaner base, and the work continues. Progress is added to this site as it happens.
 
 Evidence: the operator's statement of goals, 2026-08-22 · build report §0 and §4.1 (the bilingual-editor benchmark, 2026-08-02) · retrieved 2026-08-22
 

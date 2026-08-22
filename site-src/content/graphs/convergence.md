@@ -31,7 +31,7 @@ Evidence: commit `3fdb48ab` · the convergence artifact, deleted with the corpus
 
 The record carries its own interpretation: this measures stability, not truth; a stable core can be consistently wrong. It became doctrine: never report convergence as a quality number.
 
-The countermeasure in the [lens-graph architecture](../) is to define convergence over normalized closed-vocabulary content instead of raw graph hashes, anchor it with a hand-built exemplar instance produced before any generated extraction, and gate extraction on it. That measurement has not been run under the new definition. The zero result stands unrefuted.
+The countermeasure in the [lens-graph architecture](../) is to define convergence over normalized closed-vocabulary content instead of raw graph hashes, anchor it with a hand-built exemplar instance produced before any generated extraction, and gate extraction on it. That measurement has not yet been run under the new definition. Until it is, the zero result stands unrefuted; it is the first thing the next pass has to beat.
 
 ## Why it is the headline
 
