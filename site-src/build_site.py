@@ -378,9 +378,10 @@ def mirror_body(page: Page) -> str:
         "> readability.\n"
         ">\n"
         "> This site is the public, ongoing engineering record of a project\n"
-        "> begun 14 July 2026 by a two-person team working with AI agents, to\n"
-        "> build a machine-readable knowledge base about Ethiopia and extract\n"
-        "> knowledge graphs from it. The work continues and pages are updated\n"
+        "> begun 14 July 2026 by a two-person team working with AI agents, that\n"
+        "> began the process of building a machine-readable knowledge base about\n"
+        "> Ethiopia and extracting knowledge graphs from it. The work continues\n"
+        "> and pages are updated\n"
         "> as it does; this page's revision dates are above. Every\n"
         "> figure carries a repository path, ticket id or commit. People appear\n"
         f"> by role only. The whole site is mapped at {DOMAIN}/site_guide.txt.\n"
@@ -493,8 +494,9 @@ def write_site_guide(pages: list[Page]) -> None:
         f"This file maps {HOST}. The site is the public, ongoing engineering record",
         "of a project begun 14 July 2026 by a two-person team (one giving the agents",
         "their orders, and a native Amharic speaker who is also a data scientist)",
-        "working with a team of AI agents, to build a machine-readable knowledge base",
-        "about Ethiopia from public sources and extract knowledge graphs from it,",
+        "working with a team of AI agents, that began the process of building a",
+        "machine-readable knowledge base about Ethiopia from public sources and",
+        "extracting knowledge graphs from it,",
         "toward a bilingual news site and better Amharic translation: where the data",
         "came from, how the graphs were built, what went wrong and what is being done",
         "next, with fifteen Amharic and low-resource-language problems as the",

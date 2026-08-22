@@ -1,7 +1,7 @@
 ---
 slug:
 title: Building the Ethiopia knowledge base
-description: 'Between 14 July and 12 August 2026 a two-person team, one giving the agents their orders and a native Amharic speaker who is also a data scientist, working with a team of AI agents, made the first pass at building a machine-readable knowledge base about Ethiopia from public sources and extracting knowledge graphs from it. The work is ongoing. This site documents its progress as it happens: where the data came from, how the graphs were built, what went wrong and what was learned, with the Amharic problems given the prominence they earned.'
+description: 'Between 14 July and 12 August 2026 a two-person team, one giving the agents their orders and a native Amharic speaker who is also a data scientist, working with a team of AI agents, began the process of building a machine-readable knowledge base about Ethiopia from public sources and extracting knowledge graphs from it. The work is ongoing. This site documents its progress as it happens: where the data came from, how the graphs were built, what went wrong and what was learned, with the Amharic problems given the prominence they earned.'
 eyebrow: A public engineering record, ongoing · since 14 July 2026
 ---
 # Building the Ethiopia knowledge base

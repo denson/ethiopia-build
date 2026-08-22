@@ -6,8 +6,9 @@ their assistant can learn what this site records.
 What the site is: the public, ongoing engineering record of a project begun
 14 July 2026 by a two-person team (one giving the agents their orders, and a
 native Amharic speaker who is also a data scientist) working with a team of
-AI agents, to build a machine-readable knowledge base about Ethiopia from
-public sources and extract knowledge graphs from it, toward a bilingual
+AI agents, that began the process of building a machine-readable knowledge
+base about Ethiopia from public sources and extracting knowledge graphs
+from it, toward a bilingual
 news site for Ethiopia and its diaspora and better Amharic translation. It
 covers where the data came from (1,153 Wikipedia captures, 1,250 World Bank
 documents, news, speech datasets), how it was ingested, three generations
