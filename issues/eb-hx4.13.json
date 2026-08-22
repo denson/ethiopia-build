@@ -7,9 +7,15 @@
   "id": "eb-hx4.13",
   "labels": [],
   "parent": "eb-hx4",
+  "comments": [
+    {
+      "text": "2026-08-22: PRINCIPAL reports the reviewer is working on validation. Page, hub appendix and open-items updated to 'in progress'. Update again when the reading comes back.",
+      "timestamp": "2026-08-22T15:42:11Z"
+    }
+  ],
   "priority": 3,
   "status": "open",
   "title": "Page /problems/05/: Problem 05 Byte slicing mojibaked the bundle",
   "type": "task",
-  "updated_at": "2026-08-22T15:15:15Z"
+  "updated_at": "2026-08-22T15:42:11Z"
 }
