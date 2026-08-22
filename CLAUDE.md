@@ -28,7 +28,7 @@ git fetch origin beadwork:beadwork
 
 Never `git checkout beadwork` from the main worktree. Push tickets separately from code: `git push origin beadwork`. Pushing `main` does not push tickets.
 
-**Start at the START HERE ticket** (`bw list` shows it). The directing ticket for this site is `u--xal` in the user-tier store (`denson/user-beadwork`); progress is reported there.
+**Start at `bw show eb-hx4`.** It is the START HERE epic; its children are one ticket per page. The directing ticket for this site is `u--xal` in the user-tier store (`denson/user-beadwork`); progress is reported there.
 
 ## What this site is
 
