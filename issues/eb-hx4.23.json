@@ -1,0 +1,15 @@
+{
+  "assignee": "",
+  "blocked_by": [],
+  "blocks": [],
+  "created": "2026-08-22T15:15:17Z",
+  "description": "Drafted 2026-08-22 from the build report; live at https://ethiopia-build.stoagen.com/problems/15/ (source site-src/content/problems/15.md or problems/15/index.md). Open for: re-verification of every figure against the unpacked package (C:\\claude_projects\\ethiopia-archive\\unpacked\\), PRINCIPAL edits, and the Amharic review status if it changes.",
+  "id": "eb-hx4.23",
+  "labels": [],
+  "parent": "eb-hx4",
+  "priority": 3,
+  "status": "open",
+  "title": "Page /problems/15/: Problem 15 Rights of anything translated",
+  "type": "task",
+  "updated_at": "2026-08-22T15:15:17Z"
+}
