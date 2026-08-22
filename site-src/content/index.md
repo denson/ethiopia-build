@@ -20,7 +20,7 @@ World Bank documents acquired with full provenance
 <div class="warn" markdown="1">
 <p class="figure">15<small> of </small>15</p>
 
-graphs different: three documents, five model draws each, not one document reproduced its own graph once
+extraction runs produced a different graph. Three documents, five runs each; no two runs on the same document agreed
 </div>
 </div>
 

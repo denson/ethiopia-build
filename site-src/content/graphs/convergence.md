@@ -1,7 +1,7 @@
 ---
 slug: graphs/convergence
 title: The convergence measurement
-description: Three documents, five model draws each, fifteen distinct graphs. Not one document reproduced its own graph once. This measurement, more than any other, is why the programme restarted, and the record carries its own caveat that it measures stability, not truth.
+description: The extractor was run five times on each of three documents. All fifteen runs produced a different graph; no two runs on the same document agreed. This measurement, more than any other, is why the programme restarted, and the record carries its own caveat that it measures stability, not truth.
 eyebrow: Chapter 03 · the measurement
 ---
 # The convergence measurement
@@ -23,7 +23,7 @@ Every document produced five unique graph hashes. Per assertion class, the core 
 | regulation | 0.0 |
 | statement | 0.0 |
 
-Fifteen graphs, fifteen different.
+Fifteen runs, fifteen different graphs. Running the same extractor on the same document did not give the same answer twice.
 
 Evidence: commit `3fdb48ab` · the convergence artifact, deleted with the corpus, survives only in git history · retrieved 2026-08-21
 
