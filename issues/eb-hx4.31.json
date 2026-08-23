@@ -1,0 +1,15 @@
+{
+  "assignee": "",
+  "blocked_by": [],
+  "blocks": [],
+  "created": "2026-08-23T05:40:14Z",
+  "description": "Add a row per new plan; keep states current.",
+  "id": "eb-hx4.31",
+  "labels": [],
+  "parent": "eb-hx4",
+  "priority": 3,
+  "status": "open",
+  "title": "Page /plans/: Plans chapter index",
+  "type": "task",
+  "updated_at": "2026-08-23T05:40:14Z"
+}
