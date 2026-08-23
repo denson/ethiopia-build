@@ -51,6 +51,7 @@ concatenated.
 - [Who did the work](https://ethiopia-build.stoagen.com/seats/index.md): the seats by role and runtime, and what they recorded against themselves.
 - [Timeline](https://ethiopia-build.stoagen.com/timeline/index.md): 14 July to 11 August 2026, dated from tickets and commits.
 - [What is still open](https://ethiopia-build.stoagen.com/timeline/open-items/index.md): every open item with an honest state.
+- [Plans](https://ethiopia-build.stoagen.com/plans/index.md): what the project intends to do next, each plan with its state; currently the image-to-text plan for Ethiopian languages at /plans/image-to-text/.
 - [Where the evidence lives](https://ethiopia-build.stoagen.com/evidence/index.md): repositories, key documents, ticket stores, commits.
 - [Agent access](https://ethiopia-build.stoagen.com/agents/index.md): this contract, in page form.
 
@@ -70,6 +71,9 @@ concatenated.
 - [13 Script and encoding at the edges](https://ethiopia-build.stoagen.com/problems/13/index.md)
 - [14 Calendar and clock](https://ethiopia-build.stoagen.com/problems/14/index.md)
 - [15 Rights and provenance of anything translated](https://ethiopia-build.stoagen.com/problems/15/index.md)
+
+## Plans
+- [Image-to-text for Ethiopian languages](https://ethiopia-build.stoagen.com/plans/image-to-text/index.md): test how well models read Fidel from screenshots, and build the training data to improve one ourselves if needed. Planned 2026-08-22, not started.
 
 ## Optional
 - [Full corpus](https://ethiopia-build.stoagen.com/llms-full.txt): every page mirror in one file (alias full_site.txt), for tools that can take one large fetch.

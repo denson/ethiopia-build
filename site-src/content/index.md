@@ -75,7 +75,7 @@ This is a working record of a project in progress, not a post-mortem. Every figu
 
 The first pass was one stage of a longer project: a news site for Ethiopia and its diaspora in English and Amharic, and, as its prerequisite, better translation and transcription for low-resource languages. The two are one project because every translation the bilingual editors correct becomes training data. [What the project is for](goals/) sets out those goals.
 
-Two further pages sit outside the six chapters: the [evidence map](evidence/), which lists every repository, document and ticket store the record draws on, and [agent access](agents/), the site's notes for the AI assistants that read it.
+A seventh chapter, [Plans](plans/), records what is intended before it is done, with dates. Two further pages sit outside the chapters: the [evidence map](evidence/), which lists every repository, document and ticket store the record draws on, and [agent access](agents/), the site's notes for the AI assistants that read it.
 
 <!-- agent-only -->
 

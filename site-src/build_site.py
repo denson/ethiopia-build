@@ -42,6 +42,7 @@ NAV = [
     ("The fifteen problems", "problems/"),
     ("Timeline", "timeline/"),
     ("Seats", "seats/"),
+    ("Plans", "plans/"),
 ]
 
 PASTE_LINE = f"Look at this file and describe the site: {DOMAIN}/site_guide.txt"
@@ -480,7 +481,7 @@ def page_order(pages: list[Page]) -> list[Page]:
     order = ["", "goals", "sources", "sources/speech", "ingestion", "graphs", "graphs/convergence",
              "graphs/evidence-model", "problems"]
     order += [f"problems/{n:02d}" for n in range(1, 16)]
-    order += ["seats", "timeline", "timeline/open-items", "evidence", "agents"]
+    order += ["seats", "timeline", "timeline/open-items", "plans", "plans/image-to-text", "evidence", "agents"]
     rank = {slug: i for i, slug in enumerate(order)}
     return sorted(pages, key=lambda p: (rank.get(p.slug, 999), p.slug))
 
