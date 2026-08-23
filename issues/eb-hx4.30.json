@@ -1,0 +1,15 @@
+{
+  "assignee": "",
+  "blocked_by": [],
+  "blocks": [],
+  "created": "2026-08-23T05:40:13Z",
+  "description": "Plan page written 2026-08-22. Update its State section (dated amendments) and the plans table as the work runs. Owner of the work: the native-speaker data scientist; this ticket tracks the site page only.",
+  "id": "eb-hx4.30",
+  "labels": [],
+  "parent": "eb-hx4",
+  "priority": 2,
+  "status": "open",
+  "title": "Plan /plans/image-to-text/: test and train image-to-text for Ethiopian languages",
+  "type": "task",
+  "updated_at": "2026-08-23T05:40:13Z"
+}
