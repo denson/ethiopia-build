@@ -10,19 +10,19 @@ eyebrow: Plan · written 22 August 2026
 
 Several of the Ethiopian sources the project needs refuse programmatic clients: Addis Standard answers 403 to everything, including `robots.txt`; AllAfrica blocked the project's address after thirty requests; others serve feeds that are empty or years stale. The same pages open normally in a browser. The agent can drive a browser and take screenshots, so for those sites the capture is an image of the page, not its HTML.
 
-From a screenshot of an English page, any major model reads the text directly. From a screenshot of an Amharic page in Fidel, it is not known how well any model reads the text, and the native speaker on the team reports that at least one major model struggles with Fidel even as typed input. So the chain for a blocked Amharic site is: browser screenshot, then Fidel text from the image, then English from the Fidel. The middle step is the unknown.
+None of the news sources found so far yields clean Amharic article text; the RSS summaries are useful but are not the articles. So for Amharic this is the main path to article text, not a fallback. From a screenshot of an English page, any major model reads the text directly. From a screenshot of an Amharic page in Fidel, it is not known how well any model reads the text, and the native speaker on the team reports that at least one major model struggles with Fidel even as typed input. So the chain for a blocked Amharic site is: browser screenshot, then Fidel text from the image, then English from the Fidel. The middle step is the unknown.
 
 ## What we will do
 
-1. **Build the evaluation and training set from text we already hold, not from websites.** Take clean Amharic text (the captured BBC Amharic and Ethiopian Reporter articles, and any other Amharic text in the corpus), render it to images with HTML, across the fonts, sizes, line lengths and page layouts the real sites use. The ground truth for every image is the text it was rendered from, which has no markup in it and needs no human reading. This can produce as many image-text pairs as needed at no cost.
-2. **Measure the off-the-shelf models on that set.** Screenshot-to-text with the current models from the major labs, scored against the ground truth character by character, in Fidel. That gives a number per model for how well it reads Fidel from pixels, under controlled conditions.
+1. **Build the evaluation and training set from text we already hold, not from websites.** Take clean Amharic text we already hold, build web pages that look like the news sites with that text in them, and screenshot those pages, across the fonts, sizes, line lengths and layouts the real sites use. The ground truth for every image is the text it was rendered from, which has no markup in it and needs no human reading. This can produce as many image-text pairs as needed at no cost.
+2. **Measure the off-the-shelf models on that set.** Screenshot-to-text with the current models from the major labs, scored against the ground truth by word error rate. That gives a number per model for how well it reads Fidel from pixels, under controlled conditions. The native speaker's experience so far is with one model; the others may do better, and the decision is made on the numbers.
 3. **Decide from the number.** If a model reads Fidel well enough, use it and stop. If none does, fine-tune a smaller image-to-text model on the rendered set, and measure again.
 4. **Only then test on real pages.** Screenshots of the actual blocked sites are the last test, not the training set; they are few, and the errors left by then are few enough for the native speaker to read by hand.
 5. **Extend to other Ethiopian languages** that use Fidel (Tigrinya) the same way, from whatever clean text exists for them.
 
 ## What counts as success
 
-A measured character error rate on rendered Fidel for each model tried, and one model chosen on that basis. Then: screenshots of a blocked Amharic page produce Fidel text that the native speaker confirms is the page's text. The English translation of that text is a separate derivative with its own provenance, under the rules on [rights and provenance of anything translated](../../problems/15/).
+A measured word error rate on rendered Fidel for each model tried, and one model chosen on that basis. Then: screenshots of a blocked Amharic page produce Fidel text that the native speaker confirms is the page's text. The English translation of that text is a separate derivative with its own provenance, under the rules on [rights and provenance of anything translated](../../problems/15/).
 
 ## Why this way round
 
@@ -40,6 +40,6 @@ Evidence: the operator's and the reviewer's discussion, 2026-08-22 · [problems 
 
 - This is a plan, not a result. No model has been measured on Fidel by this project as of 2026-08-22; the statement that "at least one major model struggles with Fidel" is the reviewer's reported experience as a user, not a measurement.
 - The training-data method (render known text to images; ground truth is the source text) is the operator's. It produces ground truth with no human labelling and no HTML extraction; the trade-off is that rendered text lacks the noise of real screenshots (compression, scaling, overlapping chrome), which is why step 4 exists.
-- Scoring is in Fidel characters, not bytes: Ethiopic code points are three bytes each in UTF-8, and byte-level scores would triple-count every error (see [problem 05](../../problems/05/)).
+- Scoring is by word error rate over Fidel text, not by characters and not by bytes (Ethiopic code points are three bytes each in UTF-8; see [problem 05](../../problems/05/)).
 - Related: problem 11 (chyron OCR from video frames is the same capability applied to broadcast video), problem 10 (ASR, the other unmeasured Amharic capability), the goals page (the correction loop; the native speaker's confirmations in step 4 are training data in the same way).
 - When this plan starts, its state on the plans page changes and dated amendments are appended below the "State" section here; the plan text above the amendments is not rewritten.
