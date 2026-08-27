@@ -36,6 +36,8 @@ of each page, which is what you should read. Drop `index.md` from any URL to
 get the page a human should be given. llms-full.txt carries every mirror
 concatenated.
 
+Corrections and questions reach the author at editor@stoagen.com.
+
 ## Start here
 - [Site guide](https://ethiopia-build.stoagen.com/site_guide.txt): the map of every page with sizes; the front door.
 - [Assistant start page](https://ethiopia-build.stoagen.com/start.md): one-page orientation.

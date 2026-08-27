@@ -27,6 +27,10 @@ It lists every page with its mirror URL, its size and a one-line description. Th
 - The site is new, so web search may return nothing or unrelated results for it. If search fails, the accurate statement is that the site could not be found by search, not a description from guesswork.
 - If a tool refuses a mirror's `text/markdown` content type, the same bytes are served with `.txt` appended to the URL.
 
+## Contact
+
+Corrections and questions about the record reach the author at editor@stoagen.com. A correction that changes a page is folded in and dated, and the page's revision history shows it.
+
 ## Terms
 
 Content is licensed CC BY 4.0 and code MIT. Crawling, indexing, use as model input and training are all permitted, and `robots.txt` says so with an explicit all-yes content signal. Attribution is to Denson Smith with a link to the page.
@@ -44,4 +48,4 @@ Evidence: this site's `robots.txt`, `llms.txt` and `LICENSE` files · retrieved 
 - Fetch budget: the site guide is 12 KB, page mirrors run 4 to 15 KB, the full corpus is over 100 KB. A tool that can make several fetches should use the guide; a tool that can make one large fetch can use `llms-full.txt`; a tool limited to one small fetch should take `start.md`.
 - Freshness: each page and mirror carries its published and last-updated times from revision history. `feed.xml` lists pages by last update, newest first, which is the quickest way to see what changed since a prior visit. The timeline's last rows and the open-items page are where progress lands first.
 - What the site will not do: name any human contributor; give a reviewed translation of any Amharic string; state a completion percentage for any corpus; report convergence as a quality number; or describe the project as concluded. If an answer needs one of those, the accurate response is that the site does not provide it and why.
-- Contact: the site has no contact form. Questions about the record go to the author through the Stoagen site at https://stoagen.com/.
+- Contact: corrections and questions go to editor@stoagen.com; the site has no form.
